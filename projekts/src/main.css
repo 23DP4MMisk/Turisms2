@@ -1,0 +1,217 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+header{
+    background-color: rgb(127, 199, 255);
+}
+
+a{
+  margin-left: 200px; 
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-family: Arial, sans-serif;  
+
+}
+
+.name{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif; 
+    font-size: 2em;
+
+}
+
+
+img {
+    margin: 0px 15px;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.hero-images {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.hero-images div {
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+.hero-images img {
+    width: 550px;   
+    height: 400px; 
+    object-fit: cover;
+}
+
+.hero-images p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+    
+}
+
+
+.conteiner{
+    background-color: rgb(127, 199, 255);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.feedbacks-div {
+    background-color: #f9f9f9;  
+    padding: 30px;
+    padding-right: 1200px;  
+    border-radius: 10px;  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);  
+    margin: 20px 0px 30px 0px; 
+    max-width: 650px;  
+    font-family: Arial, sans-serif;  
+
+    position: relative;  
+    left: 0;
+    width: 100%;
+
+   
+}
+
+.feedback-info {
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    width: 600px;
+   
+    background-color:rgb(127, 199, 255) ;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    color: #333;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    text-align: center;
+    font-family: Arial, sans-serif;  
+
+}
+
+
+.feedback-form h2 {
+    font-size: 2em;  
+    color: #2c3e50;  
+    text-align: center;  
+    margin-bottom: 20px;  
+}
+
+
+#feedbackText {
+    width: 100%;  
+    height: 180px;  
+    padding: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 8px;  
+    font-size: 1.1em;  
+    resize: vertical;  
+    margin-bottom: 25px; 
+}
+
+
+.feedback-form button, #api-fact-button {
+    background-color: #3498db;  
+    color: white;  
+    padding: 12px 25px;  
+    border: none; 
+    border-radius: 6px;  
+    cursor: pointer; 
+    font-size: 1.2em; 
+    transition: background-color 0.3s ease-in-out;  
+}
+
+
+.feedback-form button:hover {
+    background-color: #2980b9;  
+}
+
+
+
+
+
+#feedbacks {
+    margin-top: 40px;  
+}
+
+#feedbacks h2 {
+    font-size: 1.8em;  
+    color: #2c3e50;  
+    text-align: center;  
+}
+
+
+#feedbackList {
+    margin-top: 20px;  
+    text-align: left;  
+}
+
+
+#feedbackList div {
+    background-color: rgb(127, 199, 255);  
+    border: 1px solid #ddd;  
+    padding: 15px;
+    margin-bottom: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);  
+}
+
+
+#feedbackList div p {
+    font-size: 1.1em;  
+    color: #555; 
+    line-height: 1.6;  
+    margin: 0;  
+}
+
+.api-kaki-fakti {
+    margin-top: 10px;
+    height: 400px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px ;
+    text-align: center;
+}
+
+.api-kaki-fakti h1{
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px;
+    background-color: rgb(127, 199, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#api-fact-container{
+    margin: 10px;
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    
+}
+
