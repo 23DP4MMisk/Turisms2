@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/main.css" rel="stylesheet">
+  <title>Ceļojums</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Par mums</a>
+      <a href="#">Turi</a>
+      <a href="#">Cenas</a>
+      <a href="#">Apskatamas vietas</a>
+
+    </nav>
+
+
+  </header>
+    
+  <div class="conteiner">
+    <h1 class="name">Ceļojumi uz dažadiem valstiem</h1>
+    <section class="hero-images">
+      <div class="london">  
+        <img src="./src/london.jpg" alt="London">
+        <h1 >London</h1>
+        <p>Londonā apvienojas vēsture un mūsdienu kultūra. Iegūstiet panorāmas skatu no Londonas acs, apmeklējiet Buckinghamas pili un izbaudiet pilsētas dzīvotspēju.</p>
+      </div>
+      <div class="paris">  
+        <img src="./src/paris.jpg" alt="Paris">
+        <h1>Paris</h1>
+        <p>Parīze ir mīlestības un mākslas pilsēta. Ikonisks Eifeļa tornis, Elizejas lauki un Louvre muzejs ir tikai dažas no daudzajām vietām, kur var izbaudīt pilsētas romantiku.</p>
+      </div>
+      <div class="Tokyo">
+        <img src="./src/tokjo.jpg" alt="Tokyo">
+        <h1>Tokyo</h1>
+        <p>Tokija ir modernitātes un tradīciju apvienojums. Skatu tornis, kas redzams no Shibuya krustojuma, un tradicionālās svētnīcas, piemēram, Meiji svētnīca, rada neaizmirstamu atmosfēru.</p>
+      </div> 
+
+    </section>
+
+       
+        
+        
+       
+  </div>
+
+  <div class="feedbacks-div">
+   
+
+    <form class="feedback-form">
+      <h2>Pievinot Atsauksme</h2>
+      <textarea id="feedbackText" placeholder="Rakstiet savu atsauksme"></textarea>
+      <button type="submit">Iesniegt Atsauksme</button>
+    </form>
+    
+   
+    <section id="feedbacks">
+      <h2>Atsauksmes:</h2>
+      <div id="feedbackList"></div>
+    </section>
+
+    <div class="feedback-info">
+      <p>Tu vari rakstīt savu atsauksmi par mūsu uzņēmumu un piedāvātajiem pakalpojumiem šeit.</p>
+    </div>
+
+  </div>
+  <script src="./src/js/main.js"></script>
+
+
+
+  <div class="api-kaki-fakti">
+    <h1>Kaķu fakti no API</h1>
+    <div id="api-fact-container">Spied pogu, lai iegūtu jaunu faktu!</div>
+    <br>
+    <button id="api-fact-button">Iegūt faktu no API</button>
+  </div>
+  <script src="./src/js/kaki.js"></script>
+
+  <footer>
+    <p>Author: Marija Miškina</p>
+  </footer>
+
+</body>
+</html>
